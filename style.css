@@ -1,0 +1,65 @@
+body {
+font-family: Poppins, sans-serif;
+padding-top: 70px;
+}
+
+.navbar {
+background-color: #41A67E;
+}
+
+.hero {
+background-color: #cddfdc;
+padding: 50px 0;
+}
+
+.service-card {
+border: 1px solid #ddd;
+border-radius: 8px;
+padding: 20px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.service-icon {
+font-size: 40px;
+color: #197e89;
+margin-bottom: 15px;
+}
+
+.price-table {
+background-color: #f8f9fa;
+padding: 30px;
+border-radius: 10px;
+
+}
+
+.footer {
+background-color: #333;
+color: white;
+padding: 30px 0;
+margin-top: 50px;
+}
+
+.btn-laundry {
+background-color: #0d6efd;
+color: white;
+padding: 10px 20px;
+}
+
+.btn-laundry:hover {
+background-color: #030b16;
+color: rgb(175, 32, 32);
+}
+
+.contact-form {
+background-color: #f8f9fa;
+padding: 30px;
+border-radius: 10px;
+}
+.nav-item:hover{
+background-color: #096a64;
+border-radius: 10px;
+}
+.tombol:hover{
+background-color: #0d5b3a;
+}
