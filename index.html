@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Bersih - Jasa Laundry Murah</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <strong>Laundry.in</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Harga</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Laundry Kilat & Berkualitas</h1>
+                    <p class="lead">Cuci, setrika, dan antar ke rumah Anda. Harga terjangkau, hasil maksimal.</p>
+                    <a href="#contact" class="tombol btn btn-success btn-lg">Pesan Sekarang</a>
+                </div>
+                <div class="col-md-6 mt-2">
+                    <img src="poto1.jpg" style="height: 500px; width: 
+                    500px; border-radius: 0px;" class="img-fluid rounded" alt="Laundry">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Layanan Kami</h2>
+            <div class="row" >
+                <div class="col-md-4" >
+                    <div class="service-card" style="background-color: #28c787;">
+                        <div class="service-icon">👕</div>
+                        <h4>Cuci Biasa</h4>
+                        <p>Cuci bersih dengan deterjen berkualitas.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" >
+                    <div class="service-card" style="background-color:  #28c787;">
+                        <div class="service-icon">♨️</div>
+                        <h4>Cuci Setrika</h4>
+                        <p>Cuci + setrika rapi. Pakaian siap pakai dengan rapi.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card" style="background-color:  #28c787;">
+                        <div class="service-icon">🚚</div>
+                        <h4>Antar Jemput</h4>
+                        <p>Kami jemput dan antar ke rumah Anda. Gratis area 5km.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="pricing" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-3">Daftar Harga</h2>
+            <div class="price-table"  style="background-color: #cddfdc    ;">
+                <table class="table table-bordered">
+                    <thead class="table-primary" style="text-align: center;">
+                        <tr>
+                            <th>Jenis Pakaian</th>
+                            <th>Cuci Biasa</th>
+                            <th>Cuci Setrika</th>
+                        </tr>
+                    </thead>
+                    <tbody style="text-align: center;">
+                        <tr>
+                            <td>Kemeja</td>
+                            <td>Rp 5.000</td>
+                            <td>Rp 8.000</td>
+                        </tr>
+                        <tr>
+                            <td>Kaos</td>
+                            <td>Rp 4.000</td>
+                            <td>Rp 6.000</td>
+                        </tr>
+                        <tr>
+                            <td>Celana</td>
+                            <td>Rp 6.000</td>
+                            <td>Rp 9.000</td>
+                        </tr>
+                        <tr>
+                            <td>Jaket</td>
+                            <td>Rp 10.000</td>
+                            <td>Rp 15.000</td>
+                        </tr>
+                        <tr>
+                            <td>Bed Cover</td>
+                            <td>Rp 25.000</td>
+                            <td>Rp 35.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="text-muted mt-3">*Harga per potong</p>
+                <div></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Pesan Layanan</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div class="contact-form" style="background-color: rgb(207, 207, 207);">
+                        <form id="orderForm">
+                            <div class="mb-3">
+                                <label for="nama" class="form-label">Nama Lengkap</label>
+                                <input type="text" class="form-control" id="nama" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telepon" class="form-label">No. Telepon</label>
+                                <input type="tel" class="form-control" id="telepon" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="alamat" class="form-label">Alamat</label>
+                                <textarea class="form-control" id="alamat" required></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label for="layanan" class="form-label">Pilih Layanan</label>
+                                <select class="form-select" id="layanan" required>
+                                    <option value="">-- Pilih Layanan --</option>
+                                    <option value="cuci">Cuci Biasa</option>
+                                    <option value="setrika">Cuci + Setrika</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="tanggal" class="form-label">Tanggal Penjemputan</label>
+                                <input type="date" class="form-control" id="tanggal" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Estimasi Berat</label>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="berat" id="ringan" value="ringan" checked>
+                                        <label class="form-check-label" for="ringan">Ringan (1-3 kg)</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="berat" id="sedang" value="sedang">
+                                        <label class="form-check-label" for="sedang">Sedang (4-6 kg)</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="berat" id="berat" value="berat">
+                                        <label class="form-check-label" for="berat">Berat (7-10 kg)</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary btn-lg">Pesan Sekarang</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Laundry.in</h5>
+                    <p>Jasa laundry terpercaya sejak 2022. Melayani dengan hati, hasil memuaskan.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Kontak Kami</h5>
+                    <p>📞 0812-3456-7890<br>
+                       📍 Jl. Genukk No. 123, Semarang<br>
+                       🕒 Buka: 08.00 - 20.00 WIB</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Layanan</h5>
+                    <p>• Cuci Biasa<br>
+                       • Cuci Setrika<br>
+                       • Antar Jemput<br>
+                       • Express 6 Jam</p>
+                </div>
+            </div>
+            <hr class="bg-white bold">
+            <div class="text-center">
+                <p>&copy; 2025 Laundry YBR. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  
+</body>
+</html>
